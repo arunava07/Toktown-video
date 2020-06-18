@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TokTown</title>
+<link rel="icon" href="images/favicon.svg" sizes="any" type="image/svg+xml">
+<!-- Apple/Safari icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+<!-- Square Windows tiles -->
+<meta name="msapplication-square70x70logo" content="images/icon70.png">
+<meta name="msapplication-square150x150logo" content="images/icon150.png">
+<meta name="msapplication-square310x310logo" content="images/icon310.png">
+<script src="js/simplebar.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css" >
+<link rel="stylesheet" href="css/simplebar.css"  type="text/css" >
+<link rel="stylesheet" type="text/css" media="all" href="css/custom.css" >
+<!-- <link rel="stylesheet" type="text/css" href="css/responsive.css">  -->
+<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/dark.css">
+<!-- Darkemode End-->
+</head>
+<body>
+<div class="wrap">
+  <div class="bg"></div>
+  <section class="header-wrapper">
+    <header > <a href="#" class="logo">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 276.1 60.2" style="enable-background:new 0 0 276.1 60.2;" xml:space="preserve">
+        <style type="text/css">
+                    .st0{fill:#FF0201;}
+                    .st1{fill:#010101;}
+                  </style>
+        <g>
+          <circle class="st0" cx="27.9" cy="31.2" r="3.8"></circle>
+          <circle cx="38.9" cy="31.2" r="3.8"></circle>
+          <circle cx="16.8" cy="31.2" r="3.8"></circle>
+        </g>
+        <path d="M27.9,5.8c-14,0-25.4,11.4-25.4,25.4c0,14,11.4,25.4,25.4,25.4s25.4-11.4,25.4-25.4C53.3,17.2,41.9,5.8,27.9,5.8z
+                     M27.9,50.9C17,50.9,8.1,42.1,8.1,31.2S17,11.5,27.9,11.5s19.7,8.8,19.7,19.7S38.8,50.9,27.9,50.9z"></path>
+        <g>
+          <path class="st1" d="M89.1,16.1H77.3v32h-7.9v-32H57.8V9.7h31.3V16.1z"></path>
+          <path class="st1" d="M86.4,33.6c0-2.8,0.5-5.4,1.6-7.6c1.1-2.2,2.7-3.9,4.7-5.1c2-1.2,4.4-1.8,7.1-1.8c3.8,0,7,1.2,9.4,3.5
+                      c2.4,2.4,3.8,5.6,4.1,9.6l0.1,2c0,4.4-1.2,7.9-3.7,10.5c-2.4,2.6-5.7,4-9.8,4c-4.1,0-7.4-1.3-9.8-4c-2.5-2.6-3.7-6.2-3.7-10.8V33.6
+                      z M94.1,34.1c0,2.7,0.5,4.8,1.5,6.2c1,1.4,2.5,2.2,4.4,2.2c1.8,0,3.3-0.7,4.3-2.1c1-1.4,1.6-3.7,1.6-6.8c0-2.7-0.5-4.7-1.6-6.2
+                      c-1-1.5-2.5-2.2-4.4-2.2c-1.9,0-3.3,0.7-4.3,2.2C94.6,28.8,94.1,31,94.1,34.1z"></path>
+          <path class="st1" d="M128.5,36.6l-2.7,2.7v8.7h-7.6V7.6h7.6V30l1.5-1.9l7.3-8.6h9.1l-10.3,11.9l11.2,16.6h-8.8L128.5,36.6z"></path>
+          <path class="st1" d="M176.4,16.1h-11.8v32h-7.9v-32h-11.6V9.7h31.3V16.1z"></path>
+          <path class="st1" d="M173.7,33.6c0-2.8,0.5-5.4,1.6-7.6s2.7-3.9,4.7-5.1c2-1.2,4.4-1.8,7.1-1.8c3.8,0,7,1.2,9.4,3.5
+                      c2.4,2.4,3.8,5.6,4.1,9.6l0.1,2c0,4.4-1.2,7.9-3.7,10.5c-2.4,2.6-5.7,4-9.8,4s-7.4-1.3-9.8-4c-2.5-2.6-3.7-6.2-3.7-10.8V33.6z
+                       M181.4,34.1c0,2.7,0.5,4.8,1.5,6.2c1,1.4,2.5,2.2,4.4,2.2c1.8,0,3.3-0.7,4.3-2.1c1-1.4,1.6-3.7,1.6-6.8c0-2.7-0.5-4.7-1.6-6.2
+                      c-1-1.5-2.5-2.2-4.4-2.2c-1.9,0-3.3,0.7-4.3,2.2C181.9,28.8,181.4,31,181.4,34.1z"></path>
+          <path class="st1" d="M230.3,37.7l3.7-18.2h7.4l-7.3,28.5h-6.4l-5.4-18l-5.4,18h-6.4l-7.3-28.5h7.4l3.7,18.1l5.2-18.1h5.5
+                      L230.3,37.7z"></path>
+          <path class="st1" d="M252.2,19.5l0.2,3.3c2-2.5,4.8-3.8,8.2-3.8c3,0,5.3,0.9,6.8,2.7c1.5,1.8,2.2,4.4,2.3,8v18.4H262V29.8
+                      c0-1.6-0.4-2.8-1.1-3.5c-0.7-0.7-1.9-1.1-3.5-1.1c-2.1,0-3.8,0.9-4.8,2.7v20.2H245V19.5H252.2z"></path>
+        </g>
+      </svg>
+      </a> </header>
+  </section>
+  <section class="body-wrapper">
+    <div class="contener-wrapper ">
+      <div class="c-bb-bookblock">
+        <div class="c-bb-item">
+          <ul class="two-box-content clearfix c-box-flip2">
+            <li class="right-section">
+              <p class="click-here-wrraper">Want to join a meeting? Click <a id="bb-nav-first" href="join-metting.html">here.</a></p>
+            </li>
+            <li class="left-section">
+              <div class="left-section-con">
+                <h1>Schedule a meeting</h1>
+                <ul class="go-form">
+                  <li class="full-input">
+                    <div class="form-input-section">
+                      <input type="text" class="inputText" placeholder="Alice Carroll" required/>
+                      <span class="floating-label">Your name*</span> </div>
+                  </li>
+                  <li class="full-input">
+                    <div class="form-input-section">
+                      <input type="text" class="inputText" required placeholder="alice@wonderland.com" />
+                      <span class="floating-label">Your email*</span> </div>
+                  </li>
+                  <li>
+                    <div class="form-input-section c-input-icon"> <img src="images/metting-name.png" alt="">
+                      <input type="text" class="inputText" placeholder="Alice In Wonderland" required/>
+                      <span class="floating-label">Meeting name*</span> </div>
+                  </li>
+                  <li>
+                    <div class="form-input-section c-input-icon"> <img src="images/metting-pin.png" alt="">
+                      <input type="text" class="inputText" placeholder="99499" required/>
+                      <span class="floating-label">Meeting pin</span> </div>
+                  </li>
+                  <li>
+                    <div class="form-input-section c-input-icon"> <img src="images/calender.png" alt="">
+                      <input type="text" class="inputText c-date-picker" placeholder="Dec 31, 2020 " required/>
+                      <span class="floating-label">Schedule date</span> </div>
+                  </li>
+                  <li>
+                    <div class="form-input-section c-input-icon"> <img src="images/time.png" alt="">
+                      <input type="text" class="inputText c-time-picker" placeholder="11:00 AM " required/>
+                      <span class="floating-label">Schedule time</span> </div>
+                  </li>
+                  <li class="full-input c-url-input">
+                    <div class="form-input-section"> <a href="javascript:void(0)" onclick="copyInput()"> Copy URL
+                      <div class="coppy-url-img"></div>
+                      <span> </span> </a>
+                      <input type="text" class="inputText " id="copyInput" placeholder="https://meet.tok.town/AEx39" required/>
+                      <span class="floating-label" >Meeting URL</span> </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="c-invite-wr">
+                <h4>Invite participants <a href="javascript:void(0)" class="c-invite-add"> <span>+</span> </a> </h4>
+                <div class="c-invite-form" data-simplebar="init">
+                  <ul class="go-form">
+                    <li>
+                      <div class="c-invite-control">
+                        <div class="form-input-section c-input-icon">
+                          <input type="text" class="inputText" placeholder="Dormouse" required="">
+                          <span class="floating-label">Participant name</span> </div>
+                      </div>
+                      <div class="c-invite-control">
+                        <div class="form-input-section c-input-icon">
+                          <input type="text" class="inputText" placeholder="dormouse@wonderland.com" required="">
+                          <span class="floating-label">Participant email</span> </div>
+                      </div>
+                      <a href="javascript:void(0)" class="c-remove-btn">x</a> </li>
+                    <li>
+                      <div class="c-invite-control">
+                        <div class="form-input-section c-input-icon">
+                          <input type="text" class="inputText" placeholder="Gryphon" required="">
+                          <span class="floating-label">Participant name</span> </div>
+                      </div>
+                      <div class="c-invite-control">
+                        <div class="form-input-section c-input-icon">
+                          <input type="text" class="inputText" placeholder="gryphon@wonderland.com" required="">
+                          <span class="floating-label">Participant email</span> </div>
+                      </div>
+                      <a href="javascript:void(0)" class="c-remove-btn">x</a> </li>
+                    <li>
+                      <div class="c-invite-control">
+                        <div class="form-input-section c-input-icon">
+                          <input type="text" class="inputText" placeholder="Dodo" required="">
+                          <span class="floating-label">Participant name</span> </div>
+                      </div>
+                      <div class="c-invite-control">
+                        <div class="form-input-section c-input-icon">
+                          <input type="text" class="inputText" placeholder="dodo@wonderland.com" required="">
+                          <span class="floating-label">Participant email</span> </div>
+                      </div>
+                      <a href="javascript:void(0)" class="c-remove-btn">x</a> </li>
+                  </ul>
+                </div>
+                <div class="c-shuttele-btn"> <a href="#" class="join-meeting-button"> Schedule a meeting</a> </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="top-bruser-con">
+        <p class="c-sb-supprt  c-hide opera">It appears you are using Opera browser. For best video chat quality, please use Google Chrome browser. <a href="https://www.google.com/chrome/"> <img src="images/chrome.png">Download chrome </a></p>
+        <p class="c-sb-supprt  c-hide firefox">It appears you are using Firefox browser.  For best video chat quality, please use Google Chrome browser. <a href="https://www.google.com/chrome/"> <img src="images/chrome.png">Download chrome </a></p>
+        <p class="c-sb-supprt  c-hide safari">It appears you are using Safari browser. For best video chat quality, please use Google Chrome browser. <a href="https://www.google.com/chrome/"> <img src="images/chrome.png">Download chrome </a></p>
+        <p class="c-sb-supprt  c-hide ie">It appears you are using Internet explorer browser. For best video chat quality, please use Google Chrome browser. <a href="https://www.google.com/chrome/"> <img src="images/chrome.png">Download chrome </a></p>
+      </div>
+      <!--<footer class="c-footer-wr">Copyright © TokTown.com</footer>-->
+      <!-- <p class="c-speed-text">Do you have a good connection? Test the speed and quality of your internet 
+    <a href="http://jbdinnovation.com/ramesh/toktown_final05/Speedtest/index.html">here. </a> </p>-->
+    </div>
+  </section>
+  <p class="c-message-text">This Video chat system only for desktop view</p>
+</div>
+
+<a class="speed-test"  href="http://jbdinnovation.com/ramesh/all-final/Speedtest/01/index.html">
+<svg fill="#fff" id="ag-speedometer" class="ag-speedometer" width="60px" height="60px" enable-background="new 0 0 470 470" version="1.1" viewBox="0 0 470 470" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+  <path d="M401.17,68.83C356.785,24.444,297.771,0,235,0S113.215,24.444,68.83,68.83C24.444,113.216,0,172.229,0,235   s24.444,121.784,68.83,166.17C113.215,445.556,172.229,470,235,470s121.785-24.444,166.17-68.83   C445.556,356.784,470,297.771,470,235S445.556,113.216,401.17,68.83z M235,455c-121.309,0-220-98.691-220-220S113.691,15,235,15   s220,98.691,220,220S356.309,455,235,455z"/>
+  <path d="m235 30c-113.04 0-205 91.963-205 205s91.962 205 205 205 205-91.963 205-205-91.962-205-205-205zm0 395c-104.77 0-190-85.233-190-190s85.234-190 190-190 190 85.233 190 190-85.234 190-190 190z"/>
+  <path d="m369.97 157.84c-0.092-0.198-0.19-0.395-0.301-0.588-0.136-0.235-0.283-0.458-0.439-0.673-13.509-23.033-32.772-42.296-55.805-55.805-0.214-0.156-0.438-0.304-0.673-0.439-0.193-0.111-0.389-0.208-0.587-0.301-22.753-13.058-49.101-20.532-77.163-20.532-28.063 0-54.412 7.474-77.165 20.534-0.197 0.092-0.393 0.189-0.585 0.299-0.235 0.136-0.458 0.283-0.673 0.439-23.033 13.509-42.296 32.772-55.805 55.805-0.156 0.214-0.304 0.438-0.439 0.673-0.111 0.193-0.209 0.39-0.301 0.588-13.058 22.752-20.532 49.1-20.532 77.162 0 27.312 7.215 54.195 20.873 77.762 0.385 0.66 3.967 6.332 11.159 2.183l20.697-11.949c3.587-2.071 4.816-6.658 2.745-10.245-2.071-3.588-6.658-4.815-10.245-2.745 0 0-8.613 4.973-14.966 8.641-8.874-17.413-14.004-36.571-15.052-56.146h17.289c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-17.299c1.063-20.119 6.379-39.128 15.062-56.146l14.966 8.641c1.181 0.682 2.471 1.006 3.743 1.006 2.592 0 5.113-1.345 6.502-3.751 2.071-3.587 0.842-8.174-2.745-10.245l-14.94-8.625c10.696-16.377 24.713-30.394 41.09-41.09l8.625 14.939c1.389 2.406 3.91 3.751 6.502 3.751 1.272 0 2.562-0.324 3.743-1.006 3.587-2.071 4.816-6.658 2.745-10.245l-8.641-14.966c17.017-8.683 36.027-13.999 56.145-15.062v17.298c0 4.143 3.358 7.5 7.5 7.5s7.5-3.357 7.5-7.5v-17.299c20.119 1.063 39.128 6.379 56.145 15.062l-8.641 14.966c-2.071 3.587-0.842 8.174 2.745 10.245 1.181 0.682 2.471 1.006 3.743 1.006 2.592 0 5.113-1.345 6.502-3.751l8.625-14.939c16.377 10.697 30.394 24.713 41.09 41.09l-14.94 8.625c-3.587 2.071-4.816 6.658-2.745 10.245 1.389 2.406 3.91 3.751 6.502 3.751 1.272 0 2.562-0.324 3.743-1.006l14.966-8.641c8.683 17.017 13.998 36.027 15.062 56.146h-17.295c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h17.29c-1.048 19.561-6.172 38.723-15.034 56.156l-14.984-8.651c-3.588-2.071-8.174-0.843-10.245 2.745-2.071 3.587-0.842 8.174 2.745 10.245l21.651 12.5c1.181 0.682 2.47 1.006 3.743 1.006 2.59 0 5.11-1.344 6.5-3.748 13.63-23.58 20.835-50.467 20.835-77.753-1e-3 -28.062-7.475-54.41-20.533-77.162z"/>
+  <path class="ag-speedometer_needle"  d="m260.55 189.15c-3.618-2.01-8.179-0.71-10.192 2.904l-11.582 20.769c-1.23-0.209-2.491-0.324-3.78-0.324-12.407 0-22.5 10.094-22.5 22.5 0 1.404 0.136 2.776 0.383 4.109l-62.173 35.896c-3.587 2.071-4.816 6.658-2.745 10.245 1.389 2.406 3.91 3.751 6.502 3.751 1.272 0 2.562-0.324 3.743-1.006l62.184-35.902c3.934 3.367 9.035 5.407 14.607 5.407 9.66 0 17.915-6.12 21.098-14.685l23.775 0.354c0.038 1e-3 0.076 1e-3 0.114 1e-3 4.085 0 7.429-3.277 7.497-7.376 0.157-9.47-2.27-18.821-7.018-27.045-4.748-8.221-11.634-14.998-19.913-19.598zm-25.554 53.35c-4.136 0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5c1.302 0 2.528 0.335 3.596 0.921 0.019 0.011 0.035 0.023 0.054 0.034 2.297 1.29 3.85 3.738 3.85 6.545 0 0.032-4e-3 0.064-5e-3 0.096-0.063 4.101-3.398 7.404-7.495 7.404zm21.317-14.683c-0.966-2.858-2.489-5.461-4.443-7.677l7.571-13.576c3.188 2.737 5.908 6.009 8.031 9.686 2.123 3.678 3.596 7.669 4.373 11.799l-15.532-0.232z"/>
+  <path d="m261.15 375.5h-52.294c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h52.294c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5z"/>
+  <path d="m251.15 360.5c4.142 0 7.5-3.357 7.5-7.5s-3.358-7.5-7.5-7.5h-32.294c-4.142 0-7.5 3.357-7.5 7.5s3.358 7.5 7.5 7.5h32.294z"/>
+</svg>
+<span class="tooltiptext">Speedtest</span> 
+</a>
+
+<!-- partial -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/datetimepicker.js"></script>
+<script src="js/detectizr.min.js"></script>
+<script  src="js/script.js"></script>
+<!-- SpeedometerStart-->
+<script  src="js/speedometer.js"></script>
+</body>
+</html>

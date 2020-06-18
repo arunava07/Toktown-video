@@ -1,0 +1,162 @@
+
+@media (prefers-color-scheme: dark) {
+
+	:root {
+	    --background-color: rgb(0, 0, 0);
+	    --text-color: rgb(255, 255, 255);
+	    /* --shadow-color: rgba(240, 240, 240, 0.5);
+	  --accent-color: rgba(0, 0, 240, 0.5);*/
+	}
+	body {
+
+	    color: #fff !important;
+	    background: #000 !important;
+
+	}
+
+
+
+
+
+
+	a {
+	    color: #fff;
+	}
+
+	a:focus,
+	a:hover {
+	    color: #ccc;
+	}
+
+	.card-box {
+	    background-color: #000;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+	    color: #fff;
+	}
+
+	svg {
+	    fill: #fff;
+	}
+
+	.card {
+
+	    background-color: #000 !important;
+
+	    border: 1px solid rgba(255, 255, 255, .3) !important;
+
+	}
+
+	.go-form .join-meeting-button:hover {
+	    background: #fff!important;
+	    color: #000!important;
+	}
+
+	.c-invite-add { border-color: #fff; color: #fff; }
+	.c-bb-item {
+
+
+	    background: #000!important;
+	    border:1px solid rgba(255, 255, 255, .3)!important;
+	    border-radius: 20px;
+	}
+	.go-form li input {
+
+	    border: 1px solid rgba(255, 255, 255, .3)!important;
+
+	}
+	.dropdown {
+	    border: 1px solid rgba(255, 255, 255, .3)!important;
+	}
+	.join-meeting-button:hover {
+	    background: #fff!important;
+	    color: #000!important;
+	}
+
+	::-moz-selection {
+	    /* Code for Firefox */
+
+	    background: rgba(255, 255, 255, .2) !important;
+	}
+
+	::selection {
+
+	    background: rgba(255, 255, 255, .2) !important;
+	}
+
+
+
+	/* Else, use the user agent stylesheet */
+	@media (prefers-color-scheme: dark) {
+
+	    select,
+	    input,
+	    button,
+	    option {
+	        color: unset;
+	        background-color: unset;
+	    }
+	}
+
+
+	.navbar-brand svg {
+	    fill: #fff;
+	}
+
+	html body .area-wrapper h5::after {
+	    background: #fff;
+	}
+
+	html body .carousel-indicators li {
+	    border: none;
+	    background: #fff !important;
+	}
+
+
+	.two-box-content .left-section { background: #000; }
+
+	.c-video-haeder {
+	    background: #000;
+	   border: 1px solid rgba(254, 254, 254, 0.2);
+	   border-top:  none;
+	}
+	.dock-container{
+
+	     background: #000;
+	   border: 1px solid rgba(254, 254, 254, 0.2);
+	   border-bottom:none;
+	}
+	.dock-list-3 > li.c-full-screen a ,.dock-list-1 li a {
+	    color: #fff;
+	}
+	.dock-list-1 li a { color: #fff; }
+	.dock-container > ul.dock-list-2 > li > a > svg { fill:#000;  }
+
+	.dock-list-3 > li > a:hover ,.dock-list-3 > li > a.c-screen-sb.active,.dock-list-1 li a:hover, .dock-list-3 > li.active > a{ background:#3b3b3b; }
+	.dock-list-1 li a svg { fill: #fff; }
+	.dropdown {color: #a6a6a6!important;}
+
+	::-webkit-input-placeholder { /* Edge */
+  	color: #a6a6a6!important;
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	  color: #a6a6a6!important;
+	}
+
+	::placeholder {
+	  color: #a6a6a6!important;
+	}
+.header-wrapper .logo svg .st1 { fill:#fff !important;  }
+.c-url-input a .coppy-url-img{filter: brightness(0) invert(1);}
+.click-here-wrraper { background: #000; border-right: 1px solid rgba(255, 255, 255, .3)!important; }
+.click-here-wrraper { color: #fff; }
+.simplebar-scrollbar, .simplebar-scrollbar:before {     background: #717171 !important; }
+.simplebar-track.simplebar-vertical {background: #313131;}
+}
